@@ -1,0 +1,10 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+blockquote {
+  border: 1px dashed #969696;
+  padding: 10px;
+  background-color: #eeeeee;
+  color: #333333;
+}
