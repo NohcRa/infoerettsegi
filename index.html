@@ -418,6 +418,37 @@ A processzor lehet 32 vagy 64 bites, ez a legnagyobb adatméretet jelöli, amive
 <blockquote id='2-2-4'>
 Memória: memóriafajták, jellemzők és felhasználási területük.
 </blockquote>
+RAM (közvetlen hozzáférésű memória) - Operatív memória.
+Az éppen futó programok és az általuk használt adatok tárolása. A már nem szükséges adatok helyére újat ír. Megcímzett rekeszekben tárolja az 
+
+egyes adatelemeket. A megcímezhető tartomány függ a mikroprocesszortól; Pl.: 32 bites címzés esetén maximum 4GB memória megcímzése 
+
+lehetséges. A RAM működése dinamukis; áramkörrel folyamatosan frissíti tartalmát, mp-nként akár több százszor is kiolvassa majd újraírja a tárolt 
+
+adatokat. Hozzáférési idő: a tárolócella címzése és a neki megfelelő adat megjelnése között eltelt idő (dinamikus RAM-nál: 90ns). Feszültség 
+
+hiányában törlődnek róla az adatok.
+Legfőbb jellemző paraméterei:
+<ul>
+Típus: DDR, DDR-II, DDR-III
+Kapacitás: 512 MB, 1 GB, 2GB
+Órajel: 533MHz, 667MHz, 800MHz (hozzáférés üteme)
+</ul>
+<p>
+ROM - Csak olvasható memória
+Számítógép bekapcsolásakor a hardverkomponensek ellenőrzéséhez szükséges adatok, az operációs rendszer betöltését végző programok tárolása.
+Kicsi kapacitás, megbízható tároló, tartalmát csak ritkán kell módosítani. RAM-mal ellentétben nem igényel áramellátást az adatok megőrzéséhez.
+Fajtái:
+</p>
+<ul>
+<li>ROM: Csak olvasható, ált. gyári beállításokkal rendelkezik.</li>
+<li>PROM: Egyszer írható, egyébként csak olvasható tároló. Írás speciális eszközökkel.</li>
+<li>EPROM: Újraírható tároló, törlése UV fénnyel történik. Írás speciális eszközökkel.</li>
+<li>EEPROM: Újraírható tároló, elektronikusan törölhető és írható.</li>
+<li>flash: Hasonló az EEPROMHOZ, de nem byte-onként, hanem 512  blokkonként kezelhetőek az adatok. Pendrive-ok,  mp3 lejátszo, 
+
+fényképezőgépek, telefonok.</li>
+</ul>
 <blockquote id='2-2-5'>
 Buszrendszer, interfészek, tápegység, hűtés, ház: típusok, jellemzők.
 </blockquote>
