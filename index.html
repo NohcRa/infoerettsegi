@@ -513,6 +513,34 @@ A főbb perifériák bemutatása és jellemző paraméterértékei: monitor, nyo
 A ma jellemzően használatos monitorfajták (CRT, LCD, TFT) és ezek működési elve. A monitorokkal kapcsolatos fogalmak: felbontás, frissítési frekvencia, képátló, képpont.
 A monitortípusok összehasonlítása a felhasználási terület szempontjából.
 </blockquote>
+<p>
+CRT(Cathode Ray Tube): A CRT monitorban egy katódsugárcső található, elektronágyúval az egyik végén, foszforral bevont képernyővel a másik végén.
+Az elektronágyú elektronnyalábot lő ki, ezt elektromágneses térrel térítik el. Az elektronnyaláb a foszforborításba ütközik és felvillan, majd elhalványodik.
+Ha elég gyorsan követik egymást az elektronnyalábok, akkor az a pont nem halványodik el.
+Tehát az elektronágyúk írnak a képernyőre a számítógép utasításának megfelelően, balról jobbra, egy másodperc alatt többször is frissítve a képpontokat.
+Az első monitorok egyetlen szín árnyalatait tudták megjeleníteni (monokróm): a fekete-fehér mellett a borostyán sárga és a zöld színűek is elterjedtek voltak.
+</p>
+<p>
+LCD(Liquid Crystal Display):
+Az LCD , azaz a folyadékkristályos kijelző lelke egy folyadékristály réteg, melyen polarizált fény halad keresztül.
+A látható fény (nem polarizált) először áthalad egy ún. polárszűrőn, melynek következtében az polarizálódik (a fény rezgései csak egy síkban történnek).
+Az ember szabad szemmel nem tudja megkülönböztetni egymástól a polarizált és a nem polarizált fényt.
+A kijelzőben az immár polarizált fény áthalad a folyadékkristályt tartalmazó rétegen, melyet két elektród közé teszünk.
+Az áthaladás után a polarizált fény síkja 90 fokkal elfordul a folyadékkristállyal való kölcsönhatás következtében.
+Amennyiben feszültséget kapcsolunk a folyadékkristályos rétegre, akkor nem a polarizált fény síkja nem fordul el.
+A különleges rétegen áthaladó polarizált fény ismét egy polárszűrőre esik, melyen csak akkor halad át, ha a fény síkja a fentire merőleges.
+Ha áthalad rajta, akkor az alul elhelyezkedő tükörről visszaverődve a kijelzőn világosságot látunk.
+Amennyiben a folyadékkristályos rétegre, vagy annak egy részére feszültséget kapcsolunk, a kijelzőn sötétséget észlelünk.
+A folyadékkristályos réteg kiképzésétől függően számokat, betűket, rajzokat is meg lehet jeleníteni a kijelzőn.
+</p>
+<p>
+TFT(Thin Film Transistor): Az LCD technológián alapuló TFT minden egyes képpontja egy saját tranzisztorból áll, amely aktív állapotban elő tud állítani egy világító pontot.
+Az ilyen kijelzőket gyakran aktív-mátrixos LCD-nek is szokás nevezni.
+Felbontás: Megadja, hogy a képernyő hány képpontból áll.(pl: Full HD:1920*1080)
+Frissítési frekvencia: Megadja, hogy egy másodpercen belül hányszor frissül a képernyőn megjelenített kép.(Általánoss értékek pl.: 60Hz, 75-110Hz)
+Képátló: A képernyő egyik sarkától a szemközti sarkáig terjedő távolság, hüvelykben (1 inch = 2,54 cm) mérik.
+Képpont(pixel): A képpont a legkisebb megcímezhető illetve szerkeszthető alkotóeleme a képnek vagy képernyőnek.
+</p>
 <blockquote id='2-2-8'>
 A ma jellemzően használatos nyomtatási technológiák jellemzői. A nyomtatók működési elve (tűs, tintasugaras, lézer). A nyomtatókkal és a nyomatással kapcsolatos fogalmak.
 A nyomtatók összehasonlítása a felhasználási területük szempontjából. A ma jellemzően használatos háttértárak. A technológiák ismertetése (mágneses elvű, optikai).
@@ -731,6 +759,27 @@ Az operációs rendszerek csoportosítása:
             <li>16 bites: MS-DOS</li>
             <li>32 bites: Windows XP</li>
             <li>64 bites: OSX, Windows 7</li>
+        </ul>
+    </li>
+</ul>
+<p>
+Az operációs rendszer működési struktúrája:
+Az operációs rendszer két fő részből áll, kernelből és shellből. A kettő közti kapcsolatot a programozási interfészek látják el.
+</p>
+<ul>
+    <li>Kernel(rendszermag):
+        <ul>
+            <li>Végzi a hardver irányítását</li>
+            <li>Párhuzamosan futtatja a programokat, és meghatározza a futó programok,folyamatok processzoridejét</li>
+            <li>Megakadályozza, hogy a felhasználó közvetlenül elérhesse a hardvert</li>
+            <li>Rendszerhívások segítségével érhető el, a programok így utasítják a műveletek végrehajtására.</li>
+            <li>A kernel fontos részei az eszközkezelők (driverek), a fájlrendszervezérlők ,a hálózat-, processzor-, memóriakezelés, stb. programjai</li>
+        </ul>
+    </li>
+    <li>Shell(parancsértelmező):
+        <ul>
+            <li>Feladata a kapcsolattartás a felhasználóval, a felhasználó által adott parancsok átkonvertálása a kernel által értelmezhető rendszerhívásokká</li>
+            <li>Biztosítja a programok számára a futási feltételeket</li>
         </ul>
     </li>
 </ul>
