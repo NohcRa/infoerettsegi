@@ -452,6 +452,57 @@ fényképezőgépek, telefonok.</li>
 <blockquote id='2-2-5'>
 Buszrendszer, interfészek, tápegység, hűtés, ház: típusok, jellemzők.
 </blockquote>
+Buszrendszer
+<p>
+Azonos feladatot ellátó vezetékcsoportok, egyes vezetékein csak két feszültségszint jelenhet meg. Vezetékek számával a busz mérete is nő.
+Egy busz erén keresztül egy bitnyi információ továbbítható egyszerre. A CPU ezekkel a csatornákkal csatlakozik az operatív tárhoz és a periféria vezérlőkhöz.
+</p>
+<ul>
+Ezen CPU és buszok 3 nagy csoportja:
+<li>Adatbusz: Ez teszi lehetővé az adatcserét.</li>
+<li>Címbusz: A címzéssel foglalkozik. (RAM)</li>
+<li>Vezérlőbuszok: Számítógép működését vezérlő és összehangoló vezetékek</li>
+</ul>
+Interfészek(illesztőegységek)
+<p>
+Fizikailag és logikailag összekötik a CPU-t és a perifériákat.
+</p>
+<ul>Típusai:
+<li>Soros illesztők/port: bitekénti adatátvitelre alkalmas (pl. egér illesztése)</li>
+<li>Párhuzamos illesztők/port: egyszerre 8 bit átvitelére alkalmas (pl. nyomtató illesztése)</li>
+</ul>
+Tápegység (PSU):
+<p>
+A számítógép működéséhez szükséges feszültségeket állítja elő.
+</p>
+<ul>Fajtái:
+<li>Külső tápegység (pl: Commodore 64)</li>
+<li>AT: operációs rendszer nem tudja vezérelni</li>
+<li>ATX: Az alaplap folyamatosan kap egy alacsony feszültséget, így lehetséges a szoftveres leállítása, és a külső, hardveres indítása.</li>
+<li>BTX: Még nem elterjedt (?)</li>
+</ul>
+Hűtés:
+<p>A számítógép egyes részei (tápegység, processzor, egyéb) hőt termelnek. Hűtőberendezés szükséges az elvezetéshez.</p>
+<ul>
+Fajtái:
+<li>Léghűtéses: A processzora felszerelt hűtőborda, elvonja a hőt és kivezeti a ventillátoron keresztül.</li>
+<li>Vízhűtéses: A hűteni kívánt egységre vizet cirkuláló csöveket szerelnek.</li>
+</ul>
+<ul>
+Kevésbé elterjedtek:
+<li>Peltier hűtés: Peltier elemre kerül a  hűtő egység. Az elem az egyik oldalára vezető a hőt, a másik hideg marad</li>
+<li>Hidrogénes hűtés, hőcsöves hűtés, folyékony nitrogénes hűtés</li>
+</ul>
+Ház:
+<p>Részegységek komplex, működő halmazát tartalmazza
+</p>
+<ul>
+Lényeges jellemzői:
+<li>Méret: meghajtóhelyek</li>
+<li>Tápegység: (lsd. feljebb)</li>
+<li>Külső csatlakozások (USB, kártyaolvasók, stb.)</li>
+<li>Alaplap:közör kapcsolódási felület a számítógép egyes részegységei számára</li>
+</ul>
 <blockquote id='2-2-6'>
 A perifériák jelentősége, csoportosítása (bemeneti és kimeneti eszközök). A manapság használatos perifériák besorolása az egyes csoportokba.
 A főbb perifériák bemutatása és jellemző paraméterértékei: monitor, nyomtató, háttértárak, egér, billentyűzet.
@@ -469,16 +520,112 @@ Az adatok tárolásának fizikai megvalósítása. A winchesterek üzembe helyez
 <blockquote id='2-2-9'>
 A ma jellemzően használatos adattárolók fajtái és ezek jellemzői (CD, CD-ROM, CDR, CDRW és DVD lemezek).
 </blockquote>
+Optikai tárak:speciáilis felületű műanyag korongról az olvasó egység lézersugár segítségével, fényvisszaverődés elvével olvas.
+<ul>
+<li>CD: Audió és videó anyagok tárolására, lejátszására használták.</li>
+<li>CD-ROM: Hosszabb élettartam, nagyobb tárolási sűrűség, kapacitáshoz mérten alacsony ár, cserélhető és hordozható (Átlag kapacitás: 650MB)</li>
+<li>CD-R: Írható lemez, íráskor lézersugár égető az adatokat jelentő lyukakat</li>
+<li>CD-RW: Újraírható lemez, az adatok nem égnek be a lemezbe, kémiai változással tárolódnak az adatok</li>
+<li>DVD: Nagyobb adatsűrűség; sokkal nagyobb kapacitás, már filmek és jobb minőségű mutlimédiás fájlok tárolására is alkalmas. Lehetséges a két oldalas és atöbb réteges írás</li>
+<ul>
+Fajtái:
+  <li>DVD5: Egy réteg egy oldalon (kapacitás: 4,7GB)</li>
+  <li>DVD9: Két réteg egy oldalon (8,5GB)</li>
+  <li>DVD10 Egy-egy réteg két oldalon (9,4GB)</li>
+  <li>DVD17 Két-két réteg két oldalon (17GB)</li>
+  </ul>
+<li>Blu Ray Disc: Vörös lézerfény helyett kékkel olvas, kisebbb a hullámhossza, kisebb felületre koncentrálható; nagyobb adatsűrűség</li>
+</ul>
 <blockquote id='2-2-10'>
 A számítógép részeinek és a perifériáinak fizikai karbantartása (tisztítása, szállítása, tárolása).
 </blockquote>
+A gépházat időről időre éremes kitisztítani.
+A ventillátor a levegővel együtt port is beszív a gépházba, ami leülepszik az alkatrészekre. Pára lecsapódhat rá, ami rövidzárlatot okozhat. Billentyűzet, monitor és egér tisztiása saját kezűleg elvégezhető. Görgős egérnél a  mozgást érzékelő hengerekre is rá mehet a kosz.
 <blockquote id='2-2-11'>
 A (személyi) számítógépek részeinek összekapcsolása, és a számítógép üzembe helyezése. Az üzembe helyezés és biztonságos működtetés feltételei.
 </blockquote>
+<ul>
+<li>Kicsomagolás: Hűvős, párás időben kicsomagolás után várni, hogy a páracseppek megszáradjanak.</li>
+<li>Csatlakoztatások: Csatlakozók a mintor és a számítógép hátoldalán. Mindent oda kell dugni, ahova erőlködés nélkül, simán belemegy ( ͡° ͜ʖ ͡°) Úgy készülnek, hogy csak a hozzá tartozó foglalatba lehessen bedugni (Tűk lyukak elhelyezése, méret)</li>
+<li>Tápfeszültség ellátás: A számítógépet és a monitort csatlakoztatni kell a hálózathoz (?)</li>
+<li>Adatkapcsolatok: A számítógép egyes részeinek csatlakoztatása (perifériák).</li>
+<ul>
+<li>Bekapcsolás:</li>
+<li>Perifériák bekapcsolása (monitor, nyomtató)</li>
+<li>Számítógép bekapcsolása a megfelelő gombbal (Power)</li>
+</ul>
+<li>Power LED bekapcsolt állapotban végig világít, a Hard disk LED jelzi, hogy dolgozik a merevlemez.</li>
+</ul>
 <blockquote id='2-2-12'>
 A hálózatok kialakításának jelentősége. A hálózatok csoportosítása kiterjedtség szerint. A hálózatok topológiája, a topológiák jellemzése.
 A hálózati kialakításhoz szükséges eszközök, ezek jellemzői (hálózati közeg, hálózati kártya, kapcsolók, útválasztók, jelerősítők).
 </blockquote>
+<p>
+A tárolt adatokkal folgalkozó gépek számának növekedésével felmerült a gépek közötti kapcsolat kiépítésének ötlete.
+Hálózat: Számítógépek összekapcsolása az egymás közti kommunikáció, szoftver és hardver erőforrás megosztás érdekében. Háttértárak és nyomtatók megosztása költségkímélő. Állományok megosztása, gyors információ csere lehetséges.
+</p>
+<ul>
+<li>Központi gép (szerver): Ezen fut a hálózati operációs rendszer, felügyeli a hálózat működését</li>
+<li>Hálózati operációs renszer: Felhasználók kezelése (nyilvántartés, bejelentkezés, stb.), biztosítja fájlok és erőforrások megosztását, kapcsolat fenttartása a külvilággal (pl. internet) (rendszerre példa:Linux, Windows NT stb.)</li>
+<li>Munkaállomások: Számítógépek, melyekkel a hálózat felhasználói elérik annak szolgáltatásait. Saját operáációs rendszer van rajtuk (DOS, Windows, stb.).</li>
+<li>Vezetékek, szerelvények: Fizikai kapcsolat a gépek között (jelátviteli közeg)</li>
+</ul>
+
+Gépek viszonya egymással:
+<ul>
+<li>Szerver-kliens (kiszolgáló-ügyfél): A szerver szolgáltatást nyújt a kliensnek, leggyakoribb modell (pl.: honlapok).</li>
+<li>Host-terminál (vendéglátó-terminál): Telefonvonallal vannak összekötve, a host az elérhető adatokat tárolja, a terminálról kérhető le az információ.</li>
+<li>Peer to peer: a gépek egyenrangúak, mindegyik egyszerre szerver és munkaállomás</li>
+</ul>
+Csoportosísát kiterjedtség szerint:
+<ul>
+<li>LAN (Local Area Network) - kis kiterjedésű, lokális hálózat. Egyedi kábelezés, gyors adatátvitel. 1métertől néhány kilométerig terjedhet.</li>
+<ul>
+<li>WLAN - Vezeték nélküli helyi hálózat (hordozható eszközöknél használatos)</li>
+</ul>
+<li>MAN (Metropolitan Area Network) - városi méretű, város nagyságrendű hálózat. Települések összefogására, világhálózatok kiindlási pontjaihoz való belépés biztosításaként használatos.</li>
+<li>WAN (Wide Area Network) - pár kilométertől kezdve az egész Földre kiterjedhet. Átviteli eszköz lehet telefonvonal, műhold, mikrohullám, stb. Több LAN-t és MAN-t magába foglalhat. Ilyen az internet is.</li>
+</ul>
+Hálózati topolóógáknak nevezzük a különböző összeköséi módokat.
+<ul>
+Topológiák és jellemzésük:
+<li>Sín: A gépeket egy főkábel segítségével kötjük össze. Ehhez kapcsolodnak az egyes gépek. Koax kábel esetén ügyeljünk a mindkét oldali lezárásra.</li>
+<li>Gyűrű: Hasonló a sín topológiához, a sín két végpontja össze van kötve.</li>
+<li>Csillag: A gépek egyénileg csatlakoznak egy központi egységhez. Egy gép megsérülése esetén csak a többi nem esik ki a kommunikációból.</li>
+<li>Fa: Hasonló a csillag topológiához, egy hálózat több csomópontból álló ágat is tartalmazhat. (pl. Iskolákban)</li>
+<li>Teljes Hálózat: Minden eszköz csatlakozik minden eszközhöz. Ez a legbiztonságosabb elrendezés. Csak véges számú eszköz lehet tagja, többet nehéz kivitelezni fizikailag és gazdasági szempontból.</li>
+<li>Celluláris hálózat: Vezeték nélküli eszközök (pl: mobil) használják.</li>
+</ul>
+A hálózati kialakításhoz szükséges eszközök, ezek jellemzői (hálózati közeg, hálózati kártya, kapcsolók, útválasztók, jelerősítők).
+<ul>
+Hardver feltételek:
+<li>Számítógépek: Legalább kettő, az egyik kiszolgáló, munkaállomásként ez ritkán használható. A többi gép a munkaállomás.</li>
+<li>Hálózati kártya: A hálózatra való kapcsolódásért és azon keresztül történő kommunikációért felelős. 10-100Mbites a megszokott. Lehetséges csatlakozófelület a PCI, USB és PCMIA. Szabvány szerint készülnek, mindegyik tud mindegyikkel kommunikálni, driver szükséges.</li>
+<li>Vezeték: Átvivő közeg elemei:</li>
+<ul>
+<li>Koaxiális kábel: középen tömör rézhuzal, szigetelőréteg veszi körül, amin pedig árnyékolás található. Képes alap- és szélessávú átvitelre. T elosztóval vagy vámpír csatlakozóval történik a megcsapolás(?). Jó, mert nagy szávsélesség, nagy távolság, zajérzéketlenség, azonban lehallgatható, sérülékeny kiépítés, nehézkés szerelhetőség. Telepítése és karbanttartása szaktudást igényel</li>
+<li>Sodort érpár: Két szigetelt, egymással összecsavart rézhuzal. Lehet árnyékolt és árnyékolatlan (STP és UTP). Jó mert könnyen szerelhető, felépíthető és bővíthető, de zajérzékeny, limitált sávszélesség valamint lehallgatható.</li>
+<li>Optikai kábel: Üvegszálban haladó fénysugár megléte vagy hiánya hordozza az információt. A fény visszaverődik a szálon belül, nem "szökhet" ki. Jó mert érzéketlen az elektromágneses zavarokra, nagy sávszélesség, erősítés nélkül is nagy távra vihető, nem hallgatható le, de drága, nehéz javítani.</li>
+<li>Infravörös, lézer, mikrohullámú, rádióhullámú és műhöldas átvitel: Speciális igények kielégítésére szolgáló megoldások (távirányító, TV csatornák, stb.)</li>
+<li>Struktúrált kábelezés: Univerzális, a különböző kábelezési előírásokra is megfelel.<li>
+   </ul>
+<li>Csatlakozók:(üres?)</li>
+<li>Aktív eszközök (hub, switch) - útvonalválasztók</li>
+<ul>
+<li>aktív "HUB", telefonközpont, médiakonverter a központi egységben. Ezek manapság egy központi szerkénybe kerülnek, bővíthetőek.</li>
+<li>Repeater: jelerősítő, újradigitalizálja a jeleket útközben, adat torzulása ellen véd</li>
+<li>Bridge: hálózati szegmensek közti elválasztás, ellenőrzi a CRC értéket</li>
+<li>Router: bridge+útvonalválasztás, különböző típusú hálózatok összekötése</li>
+<li>Gateway: Protokoll átalakító</li>
+<li>Modem - analóg csatornán való lassú üzenettovábbítás</li>
+<li>switch: A csomagokat csak a kiindulási és a beérkezési állomás között továbbítja (nem küldi szét mindenhova az adatokat). Kevésbé terhelődik mint a hub.</li>
+</ul>
+</ul>
+<ul>
+Szoftver feltételek:
+<li>Egyenrangú hálózatnál a kapcsolatban álló gépek kliensként és szerverként is működnek, az operációs rendszerbe be vannak építve a szükséges szolgáltatásaok.
+<li>Kliens-szerver hálózatoknál a szerveren hálózati operációs rendszer szükséges (pl. Win XP, Linux) a kiszolgálóra, hogy teljesíthetőek legyenek a kliens kérései. A kliensen tetszőleges rendszer futhat.
+</ul>
 <blockquote id='2-2-13'>
 A matematikai logika szerepe az informatikában. A logikai alapműveletek és azok alkalmazása különböző feladatok megoldása során. Igazságtáblák (ÉS, VAGY, NEM, Kizáró VAGY).
 Logikai kifejezések kiértékelése, egyenértékűsége, tagadása.
